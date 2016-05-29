@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoHelperUtil.WinForm", "WpfApplication1\PhotoHelperUtil.WinForm.csproj", "{F9C3C43A-BC18-4411-821B-4BD1130144F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoHelperUtil.Business", "PhotoHelperUtil.Business\PhotoHelperUtil.Business.csproj", "{9647D6CA-44D7-4E02-B436-419A6A71F7EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9C3C43A-BC18-4411-821B-4BD1130144F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9C3C43A-BC18-4411-821B-4BD1130144F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9C3C43A-BC18-4411-821B-4BD1130144F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9C3C43A-BC18-4411-821B-4BD1130144F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9647D6CA-44D7-4E02-B436-419A6A71F7EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9647D6CA-44D7-4E02-B436-419A6A71F7EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9647D6CA-44D7-4E02-B436-419A6A71F7EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9647D6CA-44D7-4E02-B436-419A6A71F7EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
