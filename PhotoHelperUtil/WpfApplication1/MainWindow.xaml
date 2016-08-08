@@ -7,6 +7,30 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Menu x:Name="menu" HorizontalAlignment="Left" Height="25" VerticalAlignment="Top" Width="517">
+            <MenuItem Header="MenuItem">
+                <Separator HorizontalAlignment="Right" Width="90" Height="35" Margin="0,0,-59,0"/>
+                <MenuItem Header="MenuItem" HorizontalAlignment="Left" Width="145">
+                    <MenuItem Header="MenuItem" HorizontalAlignment="Left" Width="145">
+                        <Separator HorizontalAlignment="Left" Width="31"/>
+                        <MenuItem Header="MenuItem" HorizontalAlignment="Left" Width="145"/>
+                        <MenuItem Header="MenuItem" HorizontalAlignment="Left" Width="145"/>
+                    </MenuItem>
+                </MenuItem>
+            </MenuItem>
+        </Menu>
+        <TabControl x:Name="tabControl" HorizontalAlignment="Left" Height="140" Margin="0,30,0,0" VerticalAlignment="Top" Width="380">
+            <TabItem Header="TabItem">
+                <Grid Background="#FFE5E5E5" Margin="0,2,0,-2"/>
+            </TabItem>
+            <TabItem Header="TabItem">
+                <Grid Background="#FFE5E5E5" RenderTransformOrigin="0.5,0.491">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="5*"/>
+                        <ColumnDefinition Width="69*"/>
+                    </Grid.ColumnDefinitions>
+                </Grid>
+            </TabItem>
+        </TabControl>
     </Grid>
 </Window>
